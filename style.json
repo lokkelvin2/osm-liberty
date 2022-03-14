@@ -134,6 +134,16 @@
       "paint": {"fill-color": "rgb(236,238,204)"}
     },
     {
+      "id": "landuse_pitch",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landuse",
+      "filter": ["==", "class", "pitch"],
+      "paint": {
+        "fill-color": "rgba(177, 232, 157, 0.7)"
+      }
+    },
+    {
       "id": "waterway_tunnel",
       "type": "line",
       "source": "openmaptiles",
