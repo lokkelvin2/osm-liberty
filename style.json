@@ -180,6 +180,22 @@
       "paint": {"fill-color": "#78bced"}
     },
     {
+      "id": "ferry-water",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "filter": ["all",["==", "$type", "LineString"],["==", "class", "ferry"]],
+      "paint": {
+        "line-dasharray": [3, 3],
+        "line-color": "rgba(105, 149, 230, 1)",
+        "line-width": [
+          "interpolate",
+          ["linear"],
+          ["zoom"],
+          9, 1, 22, 2]
+      }
+    },
+    {
       "id": "landcover_sand",
       "type": "fill",
       "source": "openmaptiles",
