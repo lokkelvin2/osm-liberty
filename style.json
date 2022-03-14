@@ -134,14 +134,26 @@
       "paint": {"fill-color": "rgb(236,238,204)"}
     },
     {
+      "id": "landuse_stadium",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landuse",
+      "filter": [
+        "any",
+        ["==", "class", "stadium"],
+        ["==", "class", "track"]
+      ],
+      "paint": {"fill-color": "rgba(251, 148, 148, 1)"},
+      "minzoom": 14
+    },
+    {
       "id": "landuse_pitch",
       "type": "fill",
       "source": "openmaptiles",
       "source-layer": "landuse",
       "filter": ["==", "class", "pitch"],
-      "paint": {
-        "fill-color": "rgba(177, 232, 157, 0.7)"
-      }
+      "paint": {"fill-color": "rgba(177, 232, 157, 0.7)"},
+      "minzoom": 12
     },
     {
       "id": "waterway_tunnel",
