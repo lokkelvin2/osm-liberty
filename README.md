@@ -1,3 +1,11 @@
+# Changes in this fork
+1. Changed the color of water fill to a pleasant blue
+2. Dash lines for ferry lines
+3. Green patches for pitches and red patches for stadiums and running tracks
+4. Dashed lines for roads under construction
+5. Dark green patchs for areas under construction
+6. Pattern fill for wetlands
+7. Red danger marking for military landuse
 # OSM Liberty [![BSD licensed](https://img.shields.io/badge/license-BSD-blue.svg)](https://github.com/maputnik/osm-liberty/blob/gh-pages/LICENSE.md) [![GitHub CI status](https://github.com/maputnik/osm-liberty/workflows/CI/badge.svg)](https://github.com/maputnik/osm-liberty/actions?query=workflow%3ACI)
 
 <img align="right" alt="OSM Liberty" src="logo.png" />
