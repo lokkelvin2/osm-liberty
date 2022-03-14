@@ -224,19 +224,6 @@
       "paint": {"fill-color": "#78bced"}
     },
     {
-      "id": "landuse_military",
-      "type": "fill",
-      "source": "openmaptiles",
-      "source-layer": "landuse",
-      "filter": ["all",["==", "class", "military"]],
-      "paint": {
-        "fill-color": "rgba(253, 97, 97, 1)",
-        "fill-pattern": "military_polygon",
-        "fill-opacity": {"stops": [[9, 0.8], [13, 0.4]]}
-      },
-      "minzoom": 9
-    },
-    {
       "id": "ferry-water",
       "type": "line",
       "source": "openmaptiles",
@@ -300,6 +287,19 @@
         "line-color": "#f0ede9",
         "line-width": {"base": 1.2, "stops": [[11, 0.5], [20, 6]]}
       }
+    },
+    {
+      "id": "landuse_military",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landuse",
+      "filter": ["all",["==", "class", "military"]],
+      "paint": {
+        "fill-color": "rgba(253, 97, 97, 1)",
+        "fill-pattern": "military_polygon",
+        "fill-opacity": {"stops": [[9, 0.8], [13, 0.4]]}
+      },
+      "minzoom": 9
     },
     {
       "id": "tunnel_motorway_link_casing",
