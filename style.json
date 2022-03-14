@@ -861,7 +861,7 @@
         "all",
         ["==", "$type", "LineString"],
         ["!in", "brunnel", "bridge", "tunnel"],
-        ["in", "class", "minor_construction"]
+        ["in", "class", "minor_construction","service_construction"]
       ],
       "layout": {"line-cap": "butt", "line-join": "round"},
       "paint": {
