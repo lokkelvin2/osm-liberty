@@ -20,7 +20,7 @@
       "type": "raster"
     }
   },
-  "sprite": "https://raw.githubusercontent.com/lokkelvin2/osm-liberty/custom/sprites/osm-liberty_custom%402x",
+  "sprite": "https://raw.githubusercontent.com/lokkelvin2/osm-liberty/custom/sprites/osm-liberty_custom",
   "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key={key}",
   "layers": [
     {
