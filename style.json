@@ -229,11 +229,12 @@
       "source": "openmaptiles",
       "source-layer": "landuse",
       "paint": {
-        "fill-opacity": {"stops": [[9, 0.4], [13, 0.1]]},
+        "fill-opacity": {"stops": [[9, 0.8], [13, 0.4]]},
         "fill-color": "rgba(253, 97, 97, 1)",
         "fill-antialias": false
       },
-      "filter": ["all",["==", "class", "military"]]
+      "filter": ["all",["==", "class", "military"]],
+      "fill-pattern": "military_polygon"
     },
     {
       "id": "ferry-water",
