@@ -20,7 +20,7 @@
       "type": "raster"
     }
   },
-  "sprite": "https://maputnik.github.io/osm-liberty/sprites/osm-liberty",
+  "sprite": "https://raw.githubusercontent.com/lokkelvin2/osm-liberty/custom/sprites/osm-liberty_custom%402x",
   "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key={key}",
   "layers": [
     {
@@ -228,13 +228,13 @@
       "type": "fill",
       "source": "openmaptiles",
       "source-layer": "landuse",
-      "paint": {
-        "fill-opacity": {"stops": [[9, 0.8], [13, 0.4]]},
-        "fill-color": "rgba(253, 97, 97, 1)",
-        "fill-antialias": false
-      },
       "filter": ["all",["==", "class", "military"]],
-      "fill-pattern": "military_polygon"
+      "paint": {
+        "fill-color": "rgba(253, 97, 97, 1)",
+        "fill-pattern": "military_polygon",
+        "fill-opacity": {"stops": [[9, 0.8], [13, 0.4]]}
+      },
+      "minzoom": 9
     },
     {
       "id": "ferry-water",
