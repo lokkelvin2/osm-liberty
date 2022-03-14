@@ -1,4 +1,4 @@
-# Changes in this fork
+# Changes in this fork - **[Preview fork with Maputnik](https://maputnik.github.io/editor/?style=https://raw.githubusercontent.com/lokkelvin2/osm-liberty/custom/style.json)**
 1. Changed the color of water fill to a pleasant blue
 2. Dash lines for ferry lines
 3. Green patches for pitches and red patches for stadiums and running tracks
