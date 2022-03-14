@@ -224,6 +224,18 @@
       "paint": {"fill-color": "#78bced"}
     },
     {
+      "id": "landuse_military",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landuse",
+      "paint": {
+        "fill-opacity": {"stops": [[9, 0.4], [13, 0.1]]},
+        "fill-color": "rgba(253, 97, 97, 1)",
+        "fill-antialias": false
+      },
+      "filter": ["all",["==", "class", "military"]]
+    },
+    {
       "id": "ferry-water",
       "type": "line",
       "source": "openmaptiles",
