@@ -110,6 +110,14 @@
       }
     },
     {
+      "id": "landuse_construction",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landuse",
+      "filter": ["all",["==", "class", "construction"]],
+      "paint": {"fill-color": "rgba(183, 201, 182, 1)"}
+    },
+    {
       "id": "landuse_cemetery",
       "type": "fill",
       "source": "openmaptiles",
