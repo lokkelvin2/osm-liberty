@@ -110,6 +110,20 @@
       }
     },
     {
+      "id": "landcover_wetland",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landcover",
+      "filter": ["all",["==", "class", "wetland"]],
+      "paint": {
+        "fill-antialias": false,
+        "fill-opacity": {"stops": [[11, 0], [13, 0.3]]},
+        "fill-pattern": "dot_9",
+        "fill-color": "rgba(94, 79, 69, 1)"
+      },
+      "minzoom": 11
+    },
+    {
       "id": "landuse_construction",
       "type": "fill",
       "source": "openmaptiles",
