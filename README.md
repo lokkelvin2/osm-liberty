@@ -6,6 +6,8 @@
 5. Dark green patchs for areas under construction
 6. Pattern fill for wetlands
 7. Red danger marking for military landuse
+8. Added the following Markers (11,19,35 pixels): <img alt="marker1_35" src=./svgs/svgs_not_in_iconset/marker1_35.svg /> <img alt="marker2_35" src=./svgs/svgs_not_in_iconset/marker2_35.svg /> <img alt="marker3_35" src=./svgs/svgs_not_in_iconset/marker3_35.svg /> <img alt="marker4_35" src=./svgs/svgs_not_in_iconset/marker4_35.svg />
+
 # OSM Liberty [![BSD licensed](https://img.shields.io/badge/license-BSD-blue.svg)](https://github.com/maputnik/osm-liberty/blob/gh-pages/LICENSE.md) [![GitHub CI status](https://github.com/maputnik/osm-liberty/workflows/CI/badge.svg)](https://github.com/maputnik/osm-liberty/actions?query=workflow%3ACI)
 
 <img align="right" alt="OSM Liberty" src="logo.png" />
